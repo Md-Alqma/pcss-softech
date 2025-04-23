@@ -24,34 +24,26 @@ function App() {
         </div>
       </nav>
       <main>
-        <header
-          className="relative py-8 border border-white"
+        <div
+          className="py-10 mt-6"
           style={{
-            // background: `url(/images/hero-background.jpg)`,
-            // backgroundPosition: "center center",
-            // backgroundRepeat: "no-repeat",
-            // backgroundSize: "cover",
-            // opacity: "50%",
+            backgroundImage: `url(/images/hero.jpg)`,
+            backgroundPosition: "center center",
+            backgroundSize: "720px 100%",
+            backgroundRepeat: "no-repeat",
+            backgroundBlendMode: "color-burn",
           }}
         >
-          {/* <div className="absolute opacity-50">
-            <img
-              className="w-full"
-              src="/images/hero-background.jpg"
-              alt="hero background"
-            />
-          </div> */}
-
-          <div className="absolute top-10 left-30">
+          <div className="ml-25">
             <h1 className="text-[9rem]">DESIGN,</h1>
           </div>
-          <div className="absolute top-50 left-130">
+          <div className="ml-[30rem]">
             <h1 className="text-[9rem]">DEVELOP,</h1>
           </div>
-          <div className="absolute top-90 left-30">
+          <div className="ml-25">
             <h1 className="text-[9rem]">RESOLVE.</h1>
           </div>
-        </header>
+        </div>
       </main>
     </>
   );
