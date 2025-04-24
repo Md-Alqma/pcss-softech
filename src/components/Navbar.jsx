@@ -2,7 +2,7 @@ import { FiMenu } from "react-icons/fi";
 
 export const Navbar = () => {
   return (
-    <nav className="flex justify-between text-white items-center overflow-hidden px-72 py-2">
+    <nav className="flex justify-between text-white items-center overflow-hidden px-72 py-2 lato-font">
       <div>
         <img src="/images/logo.png" alt="logo" />
       </div>

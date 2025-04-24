@@ -36,7 +36,7 @@ export const Industry = () => {
   return (
     <section>
       <div className="flex justify-between items-center">
-        <h1 className="sor-font uppercase text-6xl title-gradient flex-1/3">
+        <h1 className="font-audiowide uppercase text-6xl title-gradient flex-1/3">
           Industries we serve
         </h1>
         <p className="text-lg flex-1/2">
@@ -56,7 +56,7 @@ export const Industry = () => {
               src={industry.imageUrl}
               alt=""
             />
-            <h2 className="absolute bottom-4 left-18 text-4xl">
+            <h2 className="font-audiowide absolute bottom-4 left-16 text-4xl">
               {industry.title}
             </h2>
           </div>
