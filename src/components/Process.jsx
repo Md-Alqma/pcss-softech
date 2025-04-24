@@ -20,12 +20,12 @@ export const Process = () => {
   return (
     <section>
       <div className="text-center">
-        <h3 className="uppercase text-2xl">Our Process</h3>
-        <h1 className="uppercase text-6xl mt-8 title-gradient">
+        <h3 className="lato-font uppercase text-2xl">Our Process</h3>
+        <h1 className="font-audiowide uppercase text-6xl mt-8 title-gradient">
           Pushing the best outcomes
         </h1>
       </div>
-      <div className="grid grid-cols-2 gap-8 mt-20">
+      <div className="lato-font grid grid-cols-2 gap-8 mt-20">
         {processes.map((process) => (
           <ProcessCard
             key={process.index}

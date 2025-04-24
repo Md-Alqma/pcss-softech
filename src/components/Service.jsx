@@ -4,7 +4,7 @@ export const Service = () => {
   const services = [
     {
       index: "1",
-      title: "Design and Development",
+      title: "Design And Development",
       tags: ["Web", "Mobile", "Desktop"],
     },
     {
@@ -19,7 +19,7 @@ export const Service = () => {
     },
   ];
   return (
-    <section className="mt-32 section p-16 relative overflow-hidden">
+  <section className="mt-32 section p-16 relative overflow-hidden">
       <div className="w-[300px] h-[300px] bg-[#27C59B] rounded-full absolute -left-20 blur-[275px] -z-10"></div>
       <div className="text-center">
         <h3 className="uppercase text-2xl">Our Services</h3>
