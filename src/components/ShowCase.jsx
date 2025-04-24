@@ -7,7 +7,7 @@ const ShowCase = () => {
       <div className="w-[300px] h-[300px] bg-[#27C59B] rounded-full absolute -left-20 blur-[275px] -z-10"></div>
 
       <div className="flex items-center justify-between gap-4">
-        <h1 className="lato-font text-7xl font-bold uppercase tracking-wide title-gradient">
+        <h1 className="font-audiowide text-6xl font-bold uppercase tracking-wide title-gradient">
           Our Showcase
         </h1>
         <p className="lato-font text-lg font-semibold cursor-pointer text-[#E7FBFC] opacity-80">

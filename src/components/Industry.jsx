@@ -34,7 +34,7 @@ export const Industry = () => {
     },
   ];
   return (
-    <section>
+    <section className="section pt-32">
       <div className="flex justify-between items-center">
         <h1 className="font-audiowide uppercase text-6xl title-gradient flex-1/3">
           Industries we serve
@@ -48,7 +48,7 @@ export const Industry = () => {
           your evolving requirements.
         </p>
       </div>
-      <div className="flex flex-wrap gap-4 mt-12">
+      <div className="flex flex-wrap gap-4 mt-12 justify-center">
         {industryImages.map((industry, i) => (
           <div className="relative" key={i}>
             <img
