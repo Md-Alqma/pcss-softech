@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <nav className="flex justify-between text-white items-center overflow-hidden">
+    <nav className="flex justify-between text-white items-center overflow-hidden px-72 py-2">
       <div>
         <img src="/images/logo.png" alt="logo" />
       </div>
