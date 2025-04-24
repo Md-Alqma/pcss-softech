@@ -1,5 +1,6 @@
 import "./App.css";
 import { About } from "./components/About";
+import Footer from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Industry } from "./components/Industry";
 import { Navbar } from "./components/Navbar";
@@ -17,6 +18,8 @@ function App() {
         <Process />
         <Industry />
       </main>
+      {/* footer section */}
+      <Footer />
     </>
   );
 }
