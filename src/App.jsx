@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 import { Service } from "./components/Service";
+import ShowCase from "./components/ShowCase";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Service />
         <About />
       </main>
+      {/* show case section */}
+      <ShowCase/>
       {/* footer section */}
       <Footer />
     </>

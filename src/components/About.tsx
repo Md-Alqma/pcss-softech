@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <section>
+    <section className="section p-16">
       <div className="flex justify-between items-center">
         <h1 className="uppercase text-6xl title-gradient flex-1/3">
           About PCSS
@@ -24,7 +24,7 @@ export const About = () => {
           }}
         />
         <img
-          className="w-full h-[418px] object-cover z-0"
+          className="w-full h-[418px] object-cover z-0 rounded-3xl border border-gray-50/50"
           src="/images/about.jpg"
           alt=""
         />

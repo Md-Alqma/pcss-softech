@@ -4,45 +4,47 @@ import footerHeading from "../assets/footer-heading.png";
 const Footer = () => {
   return (
     <>
-      <section className=" bg-white p-14 py-16 rounded-3xl text-gray-900 max-w-[1360px] mx-auto">
-        {/* {" "}
+      <div className="max-w-[1360px] mx-auto mt-28">
+        <div className=" bg-white p-14 py-16 rounded-3xl text-gray-900 ">
+          {/* {" "}
       <h1>
         {" "}
         READY TO <span>SCALE?</span>{" "}
       </h1>{" "} */}
-        <div>
-          <img src={footerHeading} alt="footer-heading" />
-        </div>
-        <p className=" text-lg text-[#505759] lato-font md:w-[70%] mt-10">
-          {" "}
-          Working with PCSS Softech is a great way to improve your business's
-          position in the market and be successful. Contact our team to find out
-          how we can help your business achieve maximum results.{" "}
-        </p>{" "}
-        <div className="flex flex-row gap-8 mt-6 items-center">
-          <div className="relative py-3 px-7 rounded-xl bg-gradient-to-r from-[#15475d] to-[#54c1a5] overflow-hidden">
-            <div className="w-16 h-12 absolute -left-2 top-0 rounded-full bg-[linear-gradient(103.26deg,#15475D_20.03%,#54C1A5_84.82%)] filter blur-[10px]"></div>
-
-            <div className="w-10 h-8 absolute top-1.5 left-18 rounded-full bg-[linear-gradient(103.26deg,#15475D_20.03%,#54C1A5_84.82%)] filter blur-[6px]"></div>
-
-            <p className="text-sm font-semibold text-white relative">
-              Contact Us
-            </p>
+          <div>
+            <img src={footerHeading} alt="footer-heading" />
           </div>
+          <p className=" text-lg text-[#505759] lato-font md:w-[70%] mt-10">
+            {" "}
+            Working with PCSS Softech is a great way to improve your business's
+            position in the market and be successful. Contact our team to find
+            out how we can help your business achieve maximum results.{" "}
+          </p>{" "}
+          <div className="flex flex-row gap-8 mt-6 items-center">
+            <div className="relative py-3 px-7 rounded-xl bg-gradient-to-r from-[#15475d] to-[#54c1a5] overflow-hidden">
+              <div className="w-16 h-12 absolute -left-2 top-0 rounded-full bg-[linear-gradient(103.26deg,#15475D_20.03%,#54C1A5_84.82%)] filter blur-[10px]"></div>
 
-          <div className="soro-font text-lg text-[#505759]">or</div>
-          <div className="rounded-xl overflow-hidden">
-            <button className="py-3 px-7 border font-sm font-semibold border-gradient rounded-t-xl rounded-b-xl ">
-              <p className="bg-[linear-gradient(99.31deg,#16375A_-0.2%,#185F73_22.94%,#186B7B_38.12%,#239296_56.54%,#39BEB9_69.84%,#53D0CA_87.58%,#46C4C0_97.65%,#8DE4DC_108.49%)] bg-clip-text text-transparent">
-                {" "}
-                InfoPcss@gmail.com
+              <div className="w-10 h-8 absolute top-1.5 left-18 rounded-full bg-[linear-gradient(103.26deg,#15475D_20.03%,#54C1A5_84.82%)] filter blur-[6px]"></div>
+
+              <p className="text-sm font-semibold text-white relative">
+                Contact Us
               </p>
-            </button>
+            </div>
+
+            <div className="soro-font text-lg text-[#505759]">or</div>
+            <div className="rinline-block p-[1px] rounded-lg bg-[linear-gradient(103.26deg,#163E5E_0%,#4DCCC6_58.46%,#76DAD3_84.82%)] ">
+              <button className="px-7 py-3 rounded-lg bg-white text-sm cursor-pointer soro-font ">
+                <p className=" font-sm bg-[linear-gradient(99.31deg,#16375A_-0.2%,#185F73_22.94%,#186B7B_38.12%,#239296_56.54%,#39BEB9_69.84%,#53D0CA_87.58%,#46C4C0_97.65%,#8DE4DC_108.49%)] bg-clip-text text-transparent">
+                  {" "}
+                  InfoPcss@gmail.com
+                </p>
+              </button>
+            </div>
           </div>
+          <hr className=" bg-[#333F48] my-12" />
+          <FooterList />
         </div>
-        <hr className=" bg-[#333F48] my-12" />
-        <FooterList />
-      </section>
+      </div>
       <div className=" text-center mt-2 py-4 lato-font text-sm">
         PCSS SOFTECH © 2024. All rights reserved.
       </div>
