@@ -18,7 +18,7 @@ export const Process = () => {
     },
   ];
   return (
-    <section>
+    <section className="section pt-32">
       <div className="text-center">
         <h3 className="lato-font uppercase text-2xl">Our Process</h3>
         <h1 className="font-audiowide uppercase text-6xl mt-8 title-gradient">
