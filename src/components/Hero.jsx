@@ -1,7 +1,7 @@
 export const Hero = () => {
   return (
     <section
-      className="py-10 mt-6"
+      className="py-10 mt-6 section"
       style={{
         backgroundImage: `url(/images/hero.jpg)`,
         backgroundPosition: "center center",

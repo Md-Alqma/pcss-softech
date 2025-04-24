@@ -19,12 +19,11 @@ export const Service = () => {
     },
   ];
   return (
-    <section className="mt-32">
-      <div className="text-center" >
-        <h3 className="lato-font uppercase text-2xl">Our Services</h3>
-        <h1
-          className="font-audiowide uppercase text-6xl mt-8 title-gradient"
-        >
+  <section className="mt-32 section p-16 relative overflow-hidden">
+      <div className="w-[300px] h-[300px] bg-[#27C59B] rounded-full absolute -left-20 blur-[275px] -z-10"></div>
+      <div className="text-center">
+        <h3 className="uppercase text-2xl">Our Services</h3>
+        <h1 className="uppercase text-6xl mt-8 title-gradient">
           Pushing the best outcomes
         </h1>
       </div>
