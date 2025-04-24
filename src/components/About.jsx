@@ -4,10 +4,10 @@ export const About = () => {
   return (
     <section>
       <div className="flex justify-between items-center">
-        <h1 className="uppercase text-6xl title-gradient flex-1/3">
+        <h1 className="font-audiowide uppercase text-6xl title-gradient flex-1/3">
           About PCSS
         </h1>
-        <p className="text-lg flex-1/2">
+        <p className="lato-font text-lg flex-1/2">
           PCSS SOFTECH PVT. LTD., established on July 13, 2023, is a premier IT
           service and product development company. We specialize in software
           design and development, leveraging market research, innovative design,

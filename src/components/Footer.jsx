@@ -5,11 +5,6 @@ const Footer = () => {
   return (
     <>
       <section className=" bg-white p-14 py-16 rounded-3xl text-gray-900 max-w-[1360px] mx-auto">
-        {/* {" "}
-      <h1>
-        {" "}
-        READY TO <span>SCALE?</span>{" "}
-      </h1>{" "} */}
         <div>
           <img src={footerHeading} alt="footer-heading" />
         </div>
