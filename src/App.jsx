@@ -6,6 +6,7 @@ import { Industry } from "./components/Industry";
 import { Navbar } from "./components/Navbar";
 import { Process } from "./components/Process";
 import { Service } from "./components/Service";
+import ShowCase from "./components/ShowCase";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Process />
         <Industry />
       </main>
+      {/* show case section */}
+      <ShowCase/>
       {/* footer section */}
       <Footer />
     </>
