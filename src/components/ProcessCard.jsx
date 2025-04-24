@@ -12,7 +12,7 @@ export const ProcessCard = ({ index, title, processImage, description }) => {
       <div className="w-full h-[2px] bg-gradient-to-r from-[#15475D] to-[#54C1A5] my-7 opacity-50" />
       <div className="flex justify-between items-center">
         <h3 className="text-3xl">{title}</h3>
-        <h2 className="text-4xl">{index}</h2>
+        <h2 className="text-4xl text-gradient">{index}</h2>
       </div>
     </div>
   );
