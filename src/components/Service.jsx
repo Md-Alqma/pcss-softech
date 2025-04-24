@@ -20,7 +20,7 @@ export const Service = () => {
   ];
   return (
     <section className="mt-32">
-      <div className="text-center">
+      <div className="text-center" >
         <h3 className="uppercase text-2xl">Our Services</h3>
         <h1
           className="uppercase text-6xl mt-8"
