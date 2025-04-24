@@ -14,29 +14,15 @@ export const ServiceCard = ({ index, title, tags, length }) => {
             {index}/ <span className="opacity-50">{length}</span>
           </h3>
           <div>
-            <h2
-              className="text-5xl/14"
-              style={{
-                backgroundImage: `linear-gradient(45deg, #FFFFFF , #000000 85%)`,
-                backgroundClip: "text",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
-            >
+            <h2 className="text-5xl/14 title-gradient">
               {firstTitle} <br /> {secondTitle}
             </h2>
             <div className="flex gap-4 mt-6">
               {tags?.map((tag, i) => (
                 <p
                   key={i}
-                  className="relative border px-4 py-2 border-[#4dccc6] rounded-3xl pl-8 before:content-[''] before:absolute before:left-3 before:top-1/2 before:-translate-y-1/2 before:w-3 before:h-3 before:bg-white before:rounded-full text-xl"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(90deg,rgba(22, 62, 94, 1) 0%, rgba(77, 204, 198, 1) 50%, rgba(118, 218, 211, 1) 100%)",
-                    backgroundClip: "text",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                  }}
+                  className="relative border text-gradient px-4 py-2 border-[#4dccc6] rounded-3xl pl-8 before:content-[''] before:absolute before:left-3 before:top-1/2 before:-translate-y-1/2 before:w-3 before:h-3 before:bg-white before:rounded-full text-xl"
+                  
                 >
                   {tag}
                 </p>

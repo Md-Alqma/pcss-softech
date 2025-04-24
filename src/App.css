@@ -9,3 +9,22 @@ body {
 section {
   padding: 4rem 18rem;
 }
+
+.title-gradient {
+  background-image: linear-gradient(45deg, #ffffff, #000000 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient {
+  background-image: linear-gradient(
+    90deg,
+    rgba(22, 62, 94, 1) 0%,
+    rgba(77, 204, 198, 1) 50%,
+    rgba(118, 218, 211, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -23,13 +23,7 @@ export const Service = () => {
       <div className="text-center" >
         <h3 className="uppercase text-2xl">Our Services</h3>
         <h1
-          className="uppercase text-6xl mt-8"
-          style={{
-            backgroundImage: `linear-gradient(45deg, #FFFFFF , #000000 85%)`,
-            backgroundClip: "text",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-          }}
+          className="uppercase text-6xl mt-8 title-gradient"
         >
           Pushing the best outcomes
         </h1>
