@@ -4,3 +4,12 @@ body {
   margin: 0;
   padding: 0 6rem;
 }
+
+.border-gradient {
+  border-image: linear-gradient(
+    103.26deg,
+    #163e5e 0%,
+    #4dccc6 58.46%,
+    #76dad3 84.82%
+  ) 1;
+}
